@@ -85,8 +85,8 @@ param (
 $hookurl = "$dc"
 
 $Body = @{
-  'username' = $env:username
-  'content' = $text
+  'gonapar' = $env:username
+  'Результат сканирования' = $text
 }
 
 if (-not ([string]::IsNullOrEmpty($text))){
