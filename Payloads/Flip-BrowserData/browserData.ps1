@@ -26,7 +26,7 @@ function Get-BrowserData {
                 User = $env:UserName
                 Browser = $Browser
                 DataType = $DataType
-                Data = $_
+                Data = $dc
             }
         }
     } 
